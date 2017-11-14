@@ -36,11 +36,14 @@ import nlp from "compromise";
   const newsRecieved = result => {
     const rNo = Math.round(Math.random() * (result.length - 1));
     const news = result[rNo];
-    const title = news.abstract;
+    console.log(`NEWS: \n`, nlp);
+    const negatedSentence = nlp(news.abstract).sentences().toNegative().out("text");
+    const futureTensed = nlp(negatedSentence).sentences().toFutureTense().out("text");
+    // const pluralised = nlp(futureTensed).nouns().toPlural().out("text");
     const imageUrl = news.multimedia.find(item => item.format === "Normal").url;
     let newsBody = document.querySelector("#news-body");
 
-    const newsTitleNode = createPNode(title);
+    const newsTitleNode = createPNode(futureTensed);
     newsBody.appendChild(newsTitleNode);
 
     const newsImageNode = createImgNode(imageUrl);
