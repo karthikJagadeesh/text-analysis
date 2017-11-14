@@ -1,7 +1,8 @@
 {
   "name": "text-analysis",
   "version": "1.0.0",
-  "description": "Contains projects made using Rita.js and related NLTK libraries",
+  "description":
+    "Contains projects made using Rita.js and related NLTK libraries",
   "main": "index.js",
   "repository": "https://github.com/karthikJagadeesh/text-analysis.git",
   "author": "Karthik Jagadeesha <kartu8@gmail.com>",

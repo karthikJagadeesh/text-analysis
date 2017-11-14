@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Vollkorn SC', helvetica, serif;  
+  font-family: "Vollkorn SC", helvetica, serif;
 }
 
 #heading {
@@ -16,7 +16,7 @@ body {
 }
 
 #news-body {
-  font-family: 'Raleway', helvetica, sans-serif;
+  font-family: "Raleway", helvetica, sans-serif;
   text-align: center;
   margin-top: auto;
 }
@@ -24,7 +24,7 @@ body {
 .news-item {
   width: 50%;
   margin: auto;
-  border-left: 6px solid #FFCC00;
+  border-left: 6px solid #ffcc00;
   padding: 50px 20px;
   letter-spacing: 1px;
   font-size: x-large;
@@ -37,7 +37,7 @@ body {
 
 #next-button {
   position: relative;
-  left: -475px;
+  left: -40%;
   top: 87px;
   padding: 10px;
   border-bottom: 6px solid red;
