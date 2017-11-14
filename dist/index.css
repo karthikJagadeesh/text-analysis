@@ -35,3 +35,13 @@ body {
   border-radius: 5px;
 }
 
+#next-button {
+  position: relative;
+  left: -475px;
+  top: 87px;
+  padding: 10px;
+  border-bottom: 6px solid red;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  cursor: pointer;
+}
