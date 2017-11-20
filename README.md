@@ -4,4 +4,4 @@ Contains projects built using Text Processing/Natural language processing librar
 
 ## Demos
 
-* [False news generator](https://karthikJagadeesh.github.io/text-analysis)
+* [False news generator](https://karthikJagadeesh.github.io/text-analysis/dist)
